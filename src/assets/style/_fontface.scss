@@ -1,0 +1,19 @@
+
+//@font-face {
+//	font-family: 'IranSans';
+//	src: url('../fonts/IRANSansWeb(FaNum)_Light.eot?v=4.5.0');
+//	src: url('../fonts/IRANSansWeb(FaNum)_Light.eot?#iefix&v=4.5.0') format('embedded-opentype'),
+//	url('../fonts/IRANSansWeb(FaNum)_Light.woff2?v=4.5.0') format('woff2'),
+//	url('../fonts/IRANSansWeb(FaNum)_Light.woff?v=4.5.0') format('woff'),
+//	url('../fonts/IRANSansWeb(FaNum)_Light.ttf?v=4.5.0') format('truetype');
+//	font-weight: normal;
+//	font-style: normal;
+//}
+
+@font-face {
+	font-family: 'IranSans';
+	src: local("iranSans/IranSans"),
+	url('../fonts/IranSans.ttf') format("truetype"),
+	url('../fonts/IranSans.woff') format("woff"),
+	url('../fonts/IranSans.woff2') format("woff2");
+}

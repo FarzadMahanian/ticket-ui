@@ -1,0 +1,208 @@
+html,
+body {
+	background-color: #f3f3f3;
+	height: 100%;
+}
+
+body {
+	padding-top: 50px;
+}
+
+html,
+body,
+input,
+.ui.dropdown {
+	font-family: IranSans, Tahoma, Arial, sans-serif !important;
+	color: #333;
+	direction: rtl;
+	text-align: right;
+}
+
+html,
+body,
+input,
+.header,
+.ui.button,
+.ui.message,
+.ui.message .header,
+.ui.header,
+.ui.form textarea,
+.ui.menu,
+.ui.menu .item {
+	font-family: IranSans, Tahoma, Arial, sans-serif !important;
+	color: #333;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+}
+
+// .ui.top.fixed.menu {
+// 	box-shadow: 0 1px 72px 60px rgba(34,36,38,.3);
+// }
+
+#scene {
+	position: static !important;
+	transform-style: flat !important;
+	transform: inherit !important;
+
+	#page-bg {
+		background-image: url('../img/BG.jpg');
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		position: absolute !important;
+		width: 130%;
+		height: 100%;
+		top: 0 !important;
+		left: -100px !important;
+		right: auto !important;
+	}
+}
+
+#message-box {
+	position: fixed;
+	margin: 70px auto 0;
+	width: 70%;
+	top: 0;
+	right: 0;
+	left: 0;
+	padding: 0 15px;
+}
+
+@media (max-width: 768px) {
+	#message-box {
+		width: 100%;
+	}
+}
+
+.ui.container {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.ui.dividing.header {
+	.icon {
+		font-size: 1em;
+	}
+}
+
+.site-branding .site-name {
+	font-family: IranSans, Tahoma, Arial, sans-serif !important;
+	font-weight: bold;
+	margin: 0 10px;
+	text-shadow: 0 0 3px #333;
+	font-size: 18px;
+}
+
+#message-box .ui.message {
+
+}
+
+.ui.message > .close.icon {
+	left: .5em;
+	right: auto;
+}
+
+#admin-login {
+	width: 400px;
+	margin: 300px auto 0;
+}
+
+#enter-mobile {
+	width: 400px;
+	margin: 300px auto 0;
+}
+
+#enter-password {
+	width: 400px;
+	margin: 300px auto 0;
+}
+
+#complete-form {
+	margin-top: 100px;
+}
+
+#admin-login,
+#enter-mobile,
+#enter-password {
+	img {
+		width: 100px;
+		height: auto;
+		margin: 0 auto;
+		display: block;
+	}
+}
+
+@media (max-width: 768px) {
+	#admin-login,
+	#enter-mobile,
+	#enter-password {
+		width: 100%;
+		margin: 200px auto 0;
+	}
+
+	#complete-form {
+		margin-top: 50px;
+	}
+}
+
+.ui.table tr:hover {
+	background-color: #eee !important;
+	cursor: pointer;
+}
+
+.ticket-detail-wrapper .ticket-detail .ui.header,
+.ticket-detail-wrapper .ticket-detail .ui.header .sub.header {
+	display: inline-block;
+}
+
+.ticket-detail-wrapper .ticket-answers {
+	background-color: #f3f3f3 !important;
+	max-height: calc(30vh) !important;
+	overflow-Y: scroll;
+	padding: 30px;
+
+}
+
+.ticket-detail-wrapper .ticket-answers .user-comment {
+
+}
+
+.ticket-detail-wrapper .ticket-answers .admin-comment {
+	direction: ltr;
+}
+
+.ticket-detail-wrapper .ticket-answers .user-comment .avatar,
+.ticket-detail-wrapper .ticket-answers .admin-comment .avatar {
+	margin-top: 10px;
+}
+
+.ticket-detail-wrapper .ticket-answers .admin-comment .avatar {
+	float: left;
+}
+
+.ticket-detail-wrapper .ticket-answers .user-comment .content,
+.ticket-detail-wrapper .ticket-answers .admin-comment .content {
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 10px;
+	width: 70%;
+}
+
+.ticket-detail-wrapper .ticket-answers .user-comment .content {
+	background-color: #e2fce2;
+}
+
+.ticket-detail-wrapper .ticket-answers .user-comment .text,
+.ticket-detail-wrapper .ticket-answers .admin-comment .text {
+	line-height: 1.7em;
+}
+
+.ticket-detail-wrapper .ticket-answers .admin-comment .content {
+	direction: rtl;
+	margin-left: 3.5em;
+	margin-right: 0;
+	line-height: 1.3em;
+}
