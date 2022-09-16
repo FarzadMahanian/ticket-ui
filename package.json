@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "axios": "^0.17.1",
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^3.4.1",
     "classnames": "^2.2.5",
     "jqcloud2": "^2.0.3",
     "jquery": "^3.2.1",
