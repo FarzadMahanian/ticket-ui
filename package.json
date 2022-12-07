@@ -43,7 +43,7 @@
     "moment": "^2.20.0",
     "moment-jalaali": "^0.7.2",
     "prop-types": "^15.6.0",
-    "qs": "^6.5.1",
+    "qs": "^6.5.3",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-redux": "^5.0.6",
